@@ -182,7 +182,7 @@ public class SSS{
     }
 
     public static void main(String[] args) {
-        String filePath = "F:\\Wayne\\hashira_OA\\testcase.json";
+        String filePath = ".\\testcase.json";
         try {
             String jsonInput = Files.readString(Paths.get(filePath));
             solveAndValidate(jsonInput);
